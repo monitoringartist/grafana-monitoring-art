@@ -11,21 +11,21 @@
   "annotations": false,
 
   "info": {
-    "description": "Monitoring arts datasource",
+    "description": "Monitoring Art",
     "author": {
       "name": "Monitoring Artist",
       "url": "https://www.monitoringartist.com"
     },
     "logos": {
-      "small": "src/img/simpleJson_logo.svg",
-      "large": "src/img/simpleJson_logo.svg"
+      "small": "src/img/monitoring-art-logo.png",
+      "large": "src/img/monitoring-art-logo.png"
     },
     "links": [
       {"name": "GitHub", "url": "https://github.com/monitoringartist/grafana-monitoring-art"},
       {"name": "Monitoring Artist", "url": "https://www.monitoringartist.com"}
     ],
     "version": "1.0.0",
-    "updated": "2016-11-12"
+    "updated": "2016-11-19"
   },
 
   "dependencies": {
