@@ -1,0 +1,35 @@
+{
+  "name": "Monitoring Art",
+  "id": "grafana-monitoring-art",
+  "type": "datasource",
+
+  "partials": {
+    "config": "public/app/plugins/datasource/grafana-monitoring-art/partials/config.html"
+  },
+
+  "metrics": true,
+  "annotations": false,
+
+  "info": {
+    "description": "Monitoring arts datasource",
+    "author": {
+      "name": "Monitoring Artist",
+      "url": "https://www.monitoringartist.com"
+    },
+    "logos": {
+      "small": "src/img/simpleJson_logo.svg",
+      "large": "src/img/simpleJson_logo.svg"
+    },
+    "links": [
+      {"name": "GitHub", "url": "https://github.com/monitoringartist/grafana-monitoring-art"},
+      {"name": "Monitoring Artist", "url": "https://www.monitoringartist.com"}
+    ],
+    "version": "1.0.0",
+    "updated": "2016-11-12"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}
