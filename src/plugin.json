@@ -1,21 +1,16 @@
 {
+  "type": "datasource",
   "name": "Monitoring Art",
   "id": "grafana-monitoring-art",
-  "type": "datasource",
-
-  "partials": {
-    "config": "public/app/plugins/datasource/grafana-monitoring-art/partials/config.html"
-  },
-
   "metrics": true,
   "annotations": false,
-
   "info": {
-    "description": "Monitoring Art",
+    "description": "Monitoring Art datasource for Grafana.",
     "author": {
       "name": "Monitoring Artist",
       "url": "https://www.monitoringartist.com"
     },
+    "keywords": ["monitoringartist", "art", "datasource"],
     "logos": {
       "small": "src/img/monitoring-art-logo.png",
       "large": "src/img/monitoring-art-logo.png"
@@ -24,10 +19,15 @@
       {"name": "GitHub", "url": "https://github.com/monitoringartist/grafana-monitoring-art"},
       {"name": "Monitoring Artist", "url": "https://www.monitoringartist.com"}
     ],
+    "screenshots": [
+      {"name": "Monitoring Artist logo", "path": "doc/grafana-monitoring-art-monitoring-artist-logo.png"},
+      {"name": "Grafana logo", "path": "doc/grafana-monitoring-art-grafana-logo.png"},
+      {"name": "Zabbix logo", "path": "doc/grafana-monitoring-art-zabbix-logo.png"},
+      {"name": "World", "path": "doc/grafana-monitoring-art-world.png"},
+    ],
     "version": "1.0.0",
     "updated": "2016-11-19"
   },
-
   "dependencies": {
     "grafanaVersion": "3.x.x",
     "plugins": [ ]
