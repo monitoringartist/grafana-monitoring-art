@@ -38,13 +38,11 @@ No configuration. Just add the datasource and then import dashboard(s).
 
 Get right metric values. Build stacked graph, tweak colors and metric order/lines filling. For example how to visualize the square:
 
-<img src="doc/howto1.png" align="left" height="150"/>
-<img src="doc/howto2.png" align="left" height="150"/>
-<img src="doc/howto3.png" align="left" height="150"/>
-<img src="doc/howto4.png" align="left" height="150"/>
-<img src="doc/howto5.png" height="150"/>
-
-<hr/>
+<img src="doc/howto1.png" align="left" height="120"/>
+<img src="doc/howto2.png" align="left" height="120"/>
+<img src="doc/howto3.png" align="left" height="120"/>
+<img src="doc/howto4.png" align="left" height="120"/>
+<img src="doc/howto5.png" height="120"/>
 
 Do you want Monitoring Art with your logo? Not a problem. Contact author and buy your customized Monitoring Art.
 
