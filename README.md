@@ -2,19 +2,19 @@
 
 # Grafana Monitoring Art Datasource
 
-[![Public snapshot live](https://img.shields.io/badge/Public%20snapshot-ready-brightgreen.svg)](https://snapshot.raintank.io/dashboard/snapshot/Taz80xbYsIawWOsYqzOs7IJI24OOruec) Please add your GitHub star ★, it will encourage us to publish more Monitoring Arts.
+[![Public snapshot live](https://img.shields.io/badge/Public%20snapshot-ready-brightgreen.svg)](https://snapshot.raintank.io/dashboard/snapshot/Taz80xbYsIawWOsYqzOs7IJI24OOruec) Please add your GitHub star ★, it will encourage us to publish more Monitoring Art dashboards.
 
 Add some art into your Grafana. Real metrics. No dependency, no waiting for data collection. Just install, import dashboard(s) and enjoy it immediately.
 
 ## Dashboards
 
-[![Monitoring Art - Monitoring Artist Logo](doc/grafana-monitoring-art-monitoring-artist-logo.png)](/tree/master/dashboards/)
+[![Monitoring Art - Monitoring Artist Logo](doc/grafana-monitoring-art-monitoring-artist-logo.png)](https://github.com/monitoringartist/grafana-monitoring-art/tree/master/dashboards)
 
-[![Monitoring Art - Grafana Logo](doc/grafana-monitoring-art-grafana-logo.png)](/tree/master/dashboards/)
+[![Monitoring Art - Grafana Logo](doc/grafana-monitoring-art-grafana-logo.png)](https://github.com/monitoringartist/grafana-monitoring-art/tree/master/dashboards)
 
-[![Monitoring Art - Zabbix Logo](doc/grafana-monitoring-art-zabbix-logo.png)](/tree/master/dashboards/)
+[![Monitoring Art - Zabbix Logo](doc/grafana-monitoring-art-zabbix-logo.png)](https://github.com/monitoringartist/grafana-monitoring-art/tree/master/dashboards)
 
-[![Monitoring Art - World](doc/grafana-monitoring-art-world.png)](/tree/master/dashboards/)
+[![Monitoring Art - World](doc/grafana-monitoring-art-world.png)](https://github.com/monitoringartist/grafana-monitoring-art/tree/master/dashboards)
 
 ## Instalation
 
