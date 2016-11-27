@@ -18,7 +18,7 @@ Add some art into your Grafana. Real metrics. No dependency, no waiting for data
 
 ## Instalation
 
-Use the grafana-cli tool to install Zabbix from the commandline:
+Use the grafana-cli tool to install Monitoring Art from the commandline:
 
 ```
 grafana-cli plugins install grafana-monitoring-art
