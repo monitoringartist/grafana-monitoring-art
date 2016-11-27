@@ -1,0 +1,65 @@
+---
+layout: home
+main-title: "Monitoring Art"
+subtitle: "Piece of Art for your Grafana"
+description: "Only pure graphs made by Monitoring Artist"
+images:
+ - image_path: /img/slider/grafana-monitoring-art-monitoring-artist-logo.png
+   gallery-folder: /img/slider/
+ - image_path: /img/slider/grafana-monitoring-art-grafana-logo.png
+   gallery-folder: /img/slider/
+ - image_path: /img/slider/grafana-monitoring-art-zabbix-logo.png
+   gallery-folder: /img/slider/
+ - image_path: /img/slider/grafana-monitoring-art-world.png
+   gallery-folder: /img/slider/
+---
+
+<!-- MAIN CONTENT SECTION  _____________________________________________-->
+	<section id="content" role="main">
+		<div class="wrapper">
+		    <div class="position-absolute">
+				<h2 class="big no-margin"><strong>Monitoring <strong class="blue">Art</strong></strong></h2>
+				<h2>Piece of <span class="blue">Art</span> for your Grafana</h2>
+                    <div class="entry-summary">
+					<p>Only pure graphs made by <a href="https://www.monitoringartist.com" target="_blank" title="Managed by Monitoring Artist: DevOps / Docker / Kubernetes / AWS ECS / Zabbix / Zenoss / Terraform / Monitoring" class="blue">Monitoring Artist</a></p>
+					</div><br />
+			</div>
+			
+			<div class="gallery fullscreen-gallery kenburns-gallery">
+				<canvas id="kenburns"></canvas>
+{% for image in page.images %}  	
+				<figure class="gallery-item">
+					<header class='gallery-icon'>
+<a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
+<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+				</header>	
+				</figure>
+{% endfor %}
+				</div>
+			<!-- END WYSIWYG -->
+		</div><!-- END .wrapper -->
+	</section>
+
+<div id="footer" role="contentinfo">
+		<ul class="soc-icons">
+        <li>
+        <a href="https://github.com/monitoringartist/grafana-monitoring-art" style="color: #fff" target="_blank" title="Github">
+        <i class="fa fa-github"></i></a>
+        </li>
+		</ul>	
+</div>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="{{ site.baseurl }}/js/retina.min.js"></script>
+<!-- include mousewheel plugins -->
+<script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
+<!-- include gallery cycle plugin -->
+<script src="{{ site.baseurl }}/js/jquery.cycle.min.js"></script>
+<!-- include kenburns plugins -->
+<script src="{{ site.baseurl }}/js/kenburns.min.js"></script>
+<!-- include svg line drawing plugin -->
+<script src="{{ site.baseurl }}/js/jquery.lazylinepainter.min.js"></script>
+<!-- include custom script -->
+<script src="{{ site.baseurl }}/js/scripts.js"></script>
