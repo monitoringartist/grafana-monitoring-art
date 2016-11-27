@@ -12,20 +12,9 @@ owner:
   favicon: favicon.ico
   info: Grafana Monitoring Art datasources
 
-# Settings for comments helper
-# Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
-# Set 'provider' to false to turn commenting off globally.
-#Set 'provider: false' to disable comments globally.
-# Disable comments for individual pages/posts by specifying 'comments: false' in the page/post YAML Front Matter.
-#
-#comments :
-#  provider : disqus
-#  disqus :
-#    short_name : ""
-
 # Internal nav
 nav:
-  - DOWNLOAD MONITORING ART: "https://github.com/monitoringartist/grafana-monitoring-art"
+  - INSTALL MONITORING ART: "https://github.com/monitoringartist/grafana-monitoring-art#instalationss"
 
 # All translation keys
 translations:
