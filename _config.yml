@@ -3,7 +3,7 @@ title: Monitoring Art for Grafana from Monitoring Artist
 email: ""
 description: "Piece of Art for your Grafana"
 url: "http://www.monitoringart.com"
-baseurl: "/"
+baseurl: ""
 
 # Owner/author information
 owner:
