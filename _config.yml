@@ -2,8 +2,8 @@
 title: Monitoring Art for Grafana from Monitoring Artist
 email: ""
 description: "Piece of Art for your Grafana"
-url: "https://jangaraj.github.io"
-baseurl: "/dd"
+url: "http://www.monitoringart.com"
+baseurl: "/"
 
 # Owner/author information
 owner:
@@ -26,8 +26,6 @@ owner:
 # Internal nav
 nav:
   - DOWNLOAD MONITORING ART: "https://github.com/monitoringartist/grafana-monitoring-art"
-#  - JOURNAL: "http://sunbliss.github.io/photorama/journal/"
-#  - ABOUT: "http://sunbliss.github.io/photorama/about/"
 
 # All translation keys
 translations:
@@ -37,7 +35,6 @@ translations:
 # Server
 destination:      	 ./_site
 port:             	 4000
-
 
 # Build settings
 markdown: kramdown
@@ -51,15 +48,3 @@ tags_path: "/journal/tag/"
 gems: 
  - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-
-# SiteMap
-#sitemap:
-#    file: "/sitemap.xml"
-#    exclude:
-#        - "/atom.xml"
-#        - "/feed.xml"
-#        - "/feed/index.xml"
-#    include_posts:
-#        - "/writing/"
-#    change_frequency_name: "change_frequency"
-#    priority_name: "priority"
