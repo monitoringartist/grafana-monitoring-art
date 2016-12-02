@@ -3,7 +3,7 @@
 System.register(['app/plugins/sdk', './css/query-editor.css!'], function (_export, _context) {
   "use strict";
 
-  var QueryCtrl, _createClass, GenericDatasourceQueryCtrl;
+  var QueryCtrl, _createClass, MonitoringArtDatasourceQueryCtrl;
 
   function _classCallCheck(instance, Constructor) {
     if (!(instance instanceof Constructor)) {
@@ -58,13 +58,13 @@ System.register(['app/plugins/sdk', './css/query-editor.css!'], function (_expor
         };
       }();
 
-      _export('GenericDatasourceQueryCtrl', GenericDatasourceQueryCtrl = function (_QueryCtrl) {
-        _inherits(GenericDatasourceQueryCtrl, _QueryCtrl);
+      _export('MonitoringArtDatasourceQueryCtrl', MonitoringArtDatasourceQueryCtrl = function (_QueryCtrl) {
+        _inherits(MonitoringArtDatasourceQueryCtrl, _QueryCtrl);
 
-        function GenericDatasourceQueryCtrl($scope, $injector, uiSegmentSrv) {
-          _classCallCheck(this, GenericDatasourceQueryCtrl);
+        function MonitoringArtDatasourceQueryCtrl($scope, $injector, uiSegmentSrv) {
+          _classCallCheck(this, MonitoringArtDatasourceQueryCtrl);
 
-          var _this = _possibleConstructorReturn(this, (GenericDatasourceQueryCtrl.__proto__ || Object.getPrototypeOf(GenericDatasourceQueryCtrl)).call(this, $scope, $injector));
+          var _this = _possibleConstructorReturn(this, (MonitoringArtDatasourceQueryCtrl.__proto__ || Object.getPrototypeOf(MonitoringArtDatasourceQueryCtrl)).call(this, $scope, $injector));
 
           _this.scope = $scope;
           _this.uiSegmentSrv = uiSegmentSrv;
@@ -72,7 +72,7 @@ System.register(['app/plugins/sdk', './css/query-editor.css!'], function (_expor
           return _this;
         }
 
-        _createClass(GenericDatasourceQueryCtrl, [{
+        _createClass(MonitoringArtDatasourceQueryCtrl, [{
           key: 'getOptions',
           value: function getOptions() {
             return this.datasource.metricFindQuery(this.target).then(this.uiSegmentSrv.transformToSegments(false));
@@ -85,12 +85,12 @@ System.register(['app/plugins/sdk', './css/query-editor.css!'], function (_expor
           }
         }]);
 
-        return GenericDatasourceQueryCtrl;
+        return MonitoringArtDatasourceQueryCtrl;
       }(QueryCtrl));
 
-      _export('GenericDatasourceQueryCtrl', GenericDatasourceQueryCtrl);
+      _export('MonitoringArtDatasourceQueryCtrl', MonitoringArtDatasourceQueryCtrl);
 
-      GenericDatasourceQueryCtrl.templateUrl = 'partials/query.editor.html';
+      MonitoringArtDatasourceQueryCtrl.templateUrl = 'partials/query.editor.html';
     }
   };
 });
