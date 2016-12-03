@@ -1,7 +1,7 @@
 {
   "type": "datasource",
   "name": "Monitoring Art",
-  "id": "grafana-monitoring-art",
+  "id": "monitoringartist-monitoringart-datasource",
   "metrics": true,
   "annotations": false,
   "info": {
@@ -23,10 +23,10 @@
       {"name": "Monitoring Artist logo", "path": "doc/grafana-monitoring-art-monitoring-artist-logo.png"},
       {"name": "Grafana logo", "path": "doc/grafana-monitoring-art-grafana-logo.png"},
       {"name": "Zabbix logo", "path": "doc/grafana-monitoring-art-zabbix-logo.png"},
-      {"name": "World", "path": "doc/grafana-monitoring-art-world.png"},
+      {"name": "World", "path": "doc/grafana-monitoring-art-world.png"}
     ],
     "version": "1.0.0",
-    "updated": "2016-11-19"
+    "updated": "2016-12-02"
   },
   "dependencies": {
     "grafanaVersion": "3.x.x",

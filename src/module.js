@@ -1,19 +1,19 @@
-import {GenericDatasource} from './datasource';
-import {GenericDatasourceQueryCtrl} from './query_ctrl';
+import {MonitoringArtDatasource} from './datasource';
+import {MonitoringArtQueryCtrl} from './query_ctrl';
 
-class GenericConfigCtrl {}
-GenericConfigCtrl.templateUrl = 'partials/config.html';
+class MonitoringArtConfigCtrl {}
+MonitoringArtConfigCtrl.templateUrl = 'partials/config.html';
 
-class GenericQueryOptionsCtrl {}
-GenericQueryOptionsCtrl.templateUrl = 'partials/query.options.html';
+class MonitoringArtQueryOptionsCtrl {}
+MonitoringArtQueryOptionsCtrl.templateUrl = 'partials/query.options.html';
 
-class GenericAnnotationsQueryCtrl {}
-GenericAnnotationsQueryCtrl.templateUrl = 'partials/annotations.editor.html'
+class MonitoringArtAnnotationsQueryCtrl {}
+MonitoringArtAnnotationsQueryCtrl.templateUrl = 'partials/annotations.editor.html'
 
 export {
-  GenericDatasource as Datasource,
-  GenericDatasourceQueryCtrl as QueryCtrl,
-  GenericConfigCtrl as ConfigCtrl,
-  GenericQueryOptionsCtrl as QueryOptionsCtrl,
-  GenericAnnotationsQueryCtrl as AnnotationsQueryCtrl
+  MonitoringArtDatasource as Datasource,
+  MonitoringArtQueryCtrl as QueryCtrl,
+  MonitoringArtConfigCtrl as ConfigCtrl,
+  MonitoringArtQueryOptionsCtrl as QueryOptionsCtrl,
+  MonitoringArtAnnotationsQueryCtrl as AnnotationsQueryCtrl
 };

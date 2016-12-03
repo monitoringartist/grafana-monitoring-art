@@ -1,6 +1,6 @@
 import _ from "lodash";
 
-export class GenericDatasource {
+export class MonitoringArtDatasource {
 
   constructor(instanceSettings, $q, backendSrv, templateSrv) {
     this.type = instanceSettings.type;
