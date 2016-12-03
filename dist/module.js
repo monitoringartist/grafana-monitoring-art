@@ -3,7 +3,7 @@
 System.register(['./datasource', './query_ctrl'], function (_export, _context) {
   "use strict";
 
-  var GenericDatasource, GenericDatasourceQueryCtrl, GenericConfigCtrl, GenericQueryOptionsCtrl, GenericAnnotationsQueryCtrl;
+  var MonitoringArtDatasource, MonitoringArtQueryCtrl, MonitoringArtConfigCtrl, MonitoringArtQueryOptionsCtrl, MonitoringArtAnnotationsQueryCtrl;
 
   function _classCallCheck(instance, Constructor) {
     if (!(instance instanceof Constructor)) {
@@ -13,38 +13,38 @@ System.register(['./datasource', './query_ctrl'], function (_export, _context) {
 
   return {
     setters: [function (_datasource) {
-      GenericDatasource = _datasource.GenericDatasource;
+      MonitoringArtDatasource = _datasource.MonitoringArtDatasource;
     }, function (_query_ctrl) {
-      GenericDatasourceQueryCtrl = _query_ctrl.GenericDatasourceQueryCtrl;
+      MonitoringArtQueryCtrl = _query_ctrl.MonitoringArtQueryCtrl;
     }],
     execute: function () {
-      _export('ConfigCtrl', GenericConfigCtrl = function GenericConfigCtrl() {
-        _classCallCheck(this, GenericConfigCtrl);
+      _export('ConfigCtrl', MonitoringArtConfigCtrl = function MonitoringArtConfigCtrl() {
+        _classCallCheck(this, MonitoringArtConfigCtrl);
       });
 
-      GenericConfigCtrl.templateUrl = 'partials/config.html';
+      MonitoringArtConfigCtrl.templateUrl = 'partials/config.html';
 
-      _export('QueryOptionsCtrl', GenericQueryOptionsCtrl = function GenericQueryOptionsCtrl() {
-        _classCallCheck(this, GenericQueryOptionsCtrl);
+      _export('QueryOptionsCtrl', MonitoringArtQueryOptionsCtrl = function MonitoringArtQueryOptionsCtrl() {
+        _classCallCheck(this, MonitoringArtQueryOptionsCtrl);
       });
 
-      GenericQueryOptionsCtrl.templateUrl = 'partials/query.options.html';
+      MonitoringArtQueryOptionsCtrl.templateUrl = 'partials/query.options.html';
 
-      _export('AnnotationsQueryCtrl', GenericAnnotationsQueryCtrl = function GenericAnnotationsQueryCtrl() {
-        _classCallCheck(this, GenericAnnotationsQueryCtrl);
+      _export('AnnotationsQueryCtrl', MonitoringArtAnnotationsQueryCtrl = function MonitoringArtAnnotationsQueryCtrl() {
+        _classCallCheck(this, MonitoringArtAnnotationsQueryCtrl);
       });
 
-      GenericAnnotationsQueryCtrl.templateUrl = 'partials/annotations.editor.html';
+      MonitoringArtAnnotationsQueryCtrl.templateUrl = 'partials/annotations.editor.html';
 
-      _export('Datasource', GenericDatasource);
+      _export('Datasource', MonitoringArtDatasource);
 
-      _export('QueryCtrl', GenericDatasourceQueryCtrl);
+      _export('QueryCtrl', MonitoringArtQueryCtrl);
 
-      _export('ConfigCtrl', GenericConfigCtrl);
+      _export('ConfigCtrl', MonitoringArtConfigCtrl);
 
-      _export('QueryOptionsCtrl', GenericQueryOptionsCtrl);
+      _export('QueryOptionsCtrl', MonitoringArtQueryOptionsCtrl);
 
-      _export('AnnotationsQueryCtrl', GenericAnnotationsQueryCtrl);
+      _export('AnnotationsQueryCtrl', MonitoringArtAnnotationsQueryCtrl);
     }
   };
 });
