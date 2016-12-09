@@ -12,11 +12,11 @@ plugin presentation microsite [www.monitoringart.com](http://www.monitoringart.c
 
 [![Monitoring Art - Monitoring Artist Logo](https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/src/img/doc/grafana-monitoring-art-monitoring-artist-logo.png)](https://github.com/monitoringartist/grafana-monitoring-art/tree/master/dashboards)
 
-[![Monitoring Art - Grafana Logo](https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/img/src/doc/grafana-monitoring-art-grafana-logo.png)](https://github.com/monitoringartist/grafana-monitoring-art/tree/master/dashboards)
+[![Monitoring Art - Grafana Logo](https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/src/img/doc/grafana-monitoring-art-grafana-logo.png)](https://github.com/monitoringartist/grafana-monitoring-art/tree/master/dashboards)
 
-[![Monitoring Art - Zabbix Logo](https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/img/src/doc/grafana-monitoring-art-zabbix-logo.png)](https://github.com/monitoringartist/grafana-monitoring-art/tree/master/dashboards)
+[![Monitoring Art - Zabbix Logo](https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/src/img/doc/grafana-monitoring-art-zabbix-logo.png)](https://github.com/monitoringartist/grafana-monitoring-art/tree/master/dashboards)
 
-[![Monitoring Art - World](https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/img/src/doc/grafana-monitoring-art-world.png)](https://github.com/monitoringartist/grafana-monitoring-art/tree/master/dashboards)
+[![Monitoring Art - World](https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/src/img/doc/grafana-monitoring-art-world.png)](https://github.com/monitoringartist/grafana-monitoring-art/tree/master/dashboards)
 
 ## Instalation
 
