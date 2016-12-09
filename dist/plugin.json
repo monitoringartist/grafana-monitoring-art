@@ -20,10 +20,10 @@
       {"name": "Monitoring Artist", "url": "https://www.monitoringartist.com"}
     ],
     "screenshots": [
-      {"name": "Monitoring Artist logo", "path": "doc/grafana-monitoring-art-monitoring-artist-logo.png"},
-      {"name": "Grafana logo", "path": "doc/grafana-monitoring-art-grafana-logo.png"},
-      {"name": "Zabbix logo", "path": "doc/grafana-monitoring-art-zabbix-logo.png"},
-      {"name": "World", "path": "doc/grafana-monitoring-art-world.png"}
+      {"name": "Monitoring Artist logo", "path": "img/doc/grafana-monitoring-art-monitoring-artist-logo.png"},
+      {"name": "Grafana logo", "path": "img/doc/grafana-monitoring-art-grafana-logo.png"},
+      {"name": "Zabbix logo", "path": "img/doc/grafana-monitoring-art-zabbix-logo.png"},
+      {"name": "World", "path": "img/doc/grafana-monitoring-art-world.png"}
     ],
     "version": "1.0.0",
     "updated": "2016-12-02"
