@@ -16,17 +16,20 @@ module.exports = function(grunt) {
         src: ['**/*', '!**/*.js', '!**/*.scss', '!img/*'],
         dest: 'dist'
       },
+      grafananet_readme: {
+        expand: true,
+        src: [ 'README_grafana.net.md' ],
+        dest: 'dist',
+        rename: function(dest, src) {
+              return dest + '/README.md';
+            }
+      },
       img_to_dist: {
         cwd: 'src',
         expand: true,
         src: ['img/*'],
         dest: 'dist/src/'
       },
-      pluginDef: {
-        expand: true,
-        src: [ 'src/plugin.json', 'README.md' ],
-        dest: 'dist'
-      }
     },
 
     watch: {
@@ -84,5 +87,5 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('default', ['clean', 'copy:src_to_dist','copy:img_to_dist', 'copy:pluginDef', 'babel', 'mochaTest']);
+  grunt.registerTask('default', ['clean', 'copy:src_to_dist','copy:img_to_dist', 'copy:grafananet_readme', 'babel', 'mochaTest']);
 };

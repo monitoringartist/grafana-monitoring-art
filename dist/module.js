@@ -3,7 +3,7 @@
 System.register(['./datasource', './query_ctrl'], function (_export, _context) {
   "use strict";
 
-  var MonitoringArtDatasource, MonitoringArtQueryCtrl, MonitoringArtConfigCtrl, MonitoringArtQueryOptionsCtrl, MonitoringArtAnnotationsQueryCtrl;
+  var MonitoringArtDatasource, MonitoringArtDatasourceQueryCtrl, MonitoringArtConfigCtrl, MonitoringArtQueryOptionsCtrl;
 
   function _classCallCheck(instance, Constructor) {
     if (!(instance instanceof Constructor)) {
@@ -15,7 +15,7 @@ System.register(['./datasource', './query_ctrl'], function (_export, _context) {
     setters: [function (_datasource) {
       MonitoringArtDatasource = _datasource.MonitoringArtDatasource;
     }, function (_query_ctrl) {
-      MonitoringArtQueryCtrl = _query_ctrl.MonitoringArtQueryCtrl;
+      MonitoringArtDatasourceQueryCtrl = _query_ctrl.MonitoringArtDatasourceQueryCtrl;
     }],
     execute: function () {
       _export('ConfigCtrl', MonitoringArtConfigCtrl = function MonitoringArtConfigCtrl() {
@@ -30,21 +30,13 @@ System.register(['./datasource', './query_ctrl'], function (_export, _context) {
 
       MonitoringArtQueryOptionsCtrl.templateUrl = 'partials/query.options.html';
 
-      _export('AnnotationsQueryCtrl', MonitoringArtAnnotationsQueryCtrl = function MonitoringArtAnnotationsQueryCtrl() {
-        _classCallCheck(this, MonitoringArtAnnotationsQueryCtrl);
-      });
-
-      MonitoringArtAnnotationsQueryCtrl.templateUrl = 'partials/annotations.editor.html';
-
       _export('Datasource', MonitoringArtDatasource);
 
-      _export('QueryCtrl', MonitoringArtQueryCtrl);
+      _export('QueryCtrl', MonitoringArtDatasourceQueryCtrl);
 
       _export('ConfigCtrl', MonitoringArtConfigCtrl);
 
       _export('QueryOptionsCtrl', MonitoringArtQueryOptionsCtrl);
-
-      _export('AnnotationsQueryCtrl', MonitoringArtAnnotationsQueryCtrl);
     }
   };
 });
