@@ -30,11 +30,6 @@ module.exports = function(grunt) {
         src: ['img/*'],
         dest: 'dist/src/'
       },
-      pluginDef: {
-        expand: true,
-        src: [ 'src/plugin.json' ],
-        dest: 'dist'
-      }
     },
 
     watch: {
@@ -92,5 +87,5 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('default', ['clean', 'copy:src_to_dist','copy:img_to_dist', 'copy:pluginDef', 'copy:grafananet_readme', 'babel', 'mochaTest']);
+  grunt.registerTask('default', ['clean', 'copy:src_to_dist','copy:img_to_dist', 'copy:grafananet_readme', 'babel', 'mochaTest']);
 };
