@@ -91,7 +91,6 @@ export class MonitoringArtDatasource {
       return [];
     }
     var o = [];
-    console.log(m);
     var s = m.split("-")[1];
     m = m.split("-")[0];
     while(from<=to) {

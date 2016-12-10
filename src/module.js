@@ -1,5 +1,5 @@
 import {MonitoringArtDatasource} from './datasource';
-import {MonitoringArtQueryCtrl} from './query_ctrl';
+import {MonitoringArtDatasourceQueryCtrl} from './query_ctrl';
 
 class MonitoringArtConfigCtrl {}
 MonitoringArtConfigCtrl.templateUrl = 'partials/config.html';
@@ -9,7 +9,7 @@ MonitoringArtQueryOptionsCtrl.templateUrl = 'partials/query.options.html';
 
 export {
   MonitoringArtDatasource as Datasource,
-  MonitoringArtQueryCtrl as QueryCtrl,
+  MonitoringArtDatasourceQueryCtrl as QueryCtrl,
   MonitoringArtConfigCtrl as ConfigCtrl,
   MonitoringArtQueryOptionsCtrl as QueryOptionsCtrl,
 };
