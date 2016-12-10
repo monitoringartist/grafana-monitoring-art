@@ -1,22 +1,12 @@
-[<img src="https://monitoringartist.github.io/managed-by-monitoringartist.png" alt="Managed by Monitoring Artist: DevOps / Docker / Kubernetes / AWS ECS / Zabbix / Zenoss / Terraform / Monitoring" align="right"/>](http://www.monitoringartist.com 'DevOps / Docker / Kubernetes / AWS ECS / Zabbix / Zenoss / Terraform / Monitoring')
-
 # Grafana Monitoring Art Datasource
 
-[![Public snapshot live](https://img.shields.io/badge/Public%20snapshot-ready-brightgreen.svg)](https://snapshot.raintank.io/dashboard/snapshot/Taz80xbYsIawWOsYqzOs7IJI24OOruec) Please add your GitHub star ★, it will encourage us to publish more Monitoring Art dashboards.
+[Public snapshot of Monitoring Art](https://snapshot.raintank.io/dashboard/snapshot/Taz80xbYsIawWOsYqzOs7IJI24OOruec).
+Please add your GitHub star ★, it will encourage us to publish more Monitoring
+Art dashboards.
 
 Add some art into your Grafana. Real metrics. No dependency, no waiting for data
 collection. Just install, import dashboard(s) and enjoy it immediately. Visit
 plugin presentation microsite [www.monitoringart.com](http://www.monitoringart.com).
-
-## Dashboards
-
-[![Monitoring Art - Monitoring Artist Logo](https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/src/img/doc/grafana-monitoring-art-monitoring-artist-logo.png)](https://github.com/monitoringartist/grafana-monitoring-art/tree/master/dashboards)
-
-[![Monitoring Art - Grafana Logo](https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/img/src/doc/grafana-monitoring-art-grafana-logo.png)](https://github.com/monitoringartist/grafana-monitoring-art/tree/master/dashboards)
-
-[![Monitoring Art - Zabbix Logo](https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/img/src/doc/grafana-monitoring-art-zabbix-logo.png)](https://github.com/monitoringartist/grafana-monitoring-art/tree/master/dashboards)
-
-[![Monitoring Art - World](https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/img/src/doc/grafana-monitoring-art-world.png)](https://github.com/monitoringartist/grafana-monitoring-art/tree/master/dashboards)
 
 ## Instalation
 
@@ -42,18 +32,18 @@ No configuration. Just add the datasource and then import dashboard(s).
 Get right metric values. Build stacked graph, tweak colors and metric order/lines
 filling. For example how to visualize the square:
 
-<img src="https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/doc/howto1.png" align="left" height="125"/>
-<img src="https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/doc/howto2.png" align="left" height="125"/>
-<img src="https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/doc/howto3.png" align="left" height="125"/>
-<img src="https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/doc/howto4.png" align="left" height="125"/>
-<img src="https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/doc/howto5.png" height="125"/>
+![Monitoring Art](https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/doc/howto1small.png)
+![Monitoring Art](https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/doc/howto2small.png)
+![Monitoring Art](https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/doc/howto3small.png)
+![Monitoring Art](https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/doc/howto4small.png)
+![Monitoring Art](https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/doc/howto5small.png)
 
 Do you want Monitoring Art with your logo? Not a problem. Contact author and buy
 your customized Monitoring Art.
 
 # Contribution
 
-Feel free to create pull request to improve datasource/datasets quality.
+Feel free to create pull request to improve datasource/datasets quality - [source GitHub repo](https://github.com/monitoringartist/grafana-monitoring-art)
 
 ## Author
 
@@ -62,5 +52,4 @@ who loves monitoring systems, which start with letter Z. Those are Zabbix and Ze
 
 Professional devops / monitoring services:
 
-[![Monitoring Artist](http://monitoringartist.com/img/github-monitoring-artist-logo.jpg)]
-(http://www.monitoringartist.com 'DevOps / Docker / Kubernetes / AWS ECS / Google GCP / Zabbix / Zenoss / Terraform / Monitoring')
+[![Monitoring Artist](http://monitoringartist.com/img/github-monitoring-artist-logo.jpg)](http://www.monitoringartist.com 'DevOps / Docker / Kubernetes / AWS ECS / Google GCP / Zabbix / Zenoss / Terraform / Monitoring')

@@ -19,7 +19,10 @@ module.exports = function(grunt) {
       grafananet_readme: {
         expand: true,
         src: [ 'README_grafana.net.md' ],
-        dest: 'dist/README.md'
+        dest: 'dist',
+        rename: function(dest, src) {
+              return dest + '/README.md';
+            }
       },
       img_to_dist: {
         cwd: 'src',

@@ -3,7 +3,7 @@
 System.register(['./datasource', './query_ctrl'], function (_export, _context) {
   "use strict";
 
-  var MonitoringArtDatasource, MonitoringArtQueryCtrl, MonitoringArtConfigCtrl, MonitoringArtQueryOptionsCtrl, MonitoringArtAnnotationsQueryCtrl;
+  var MonitoringArtDatasource, MonitoringArtQueryCtrl, MonitoringArtConfigCtrl, MonitoringArtQueryOptionsCtrl;
 
   function _classCallCheck(instance, Constructor) {
     if (!(instance instanceof Constructor)) {
@@ -30,12 +30,6 @@ System.register(['./datasource', './query_ctrl'], function (_export, _context) {
 
       MonitoringArtQueryOptionsCtrl.templateUrl = 'partials/query.options.html';
 
-      _export('AnnotationsQueryCtrl', MonitoringArtAnnotationsQueryCtrl = function MonitoringArtAnnotationsQueryCtrl() {
-        _classCallCheck(this, MonitoringArtAnnotationsQueryCtrl);
-      });
-
-      MonitoringArtAnnotationsQueryCtrl.templateUrl = 'partials/annotations.editor.html';
-
       _export('Datasource', MonitoringArtDatasource);
 
       _export('QueryCtrl', MonitoringArtQueryCtrl);
@@ -43,8 +37,6 @@ System.register(['./datasource', './query_ctrl'], function (_export, _context) {
       _export('ConfigCtrl', MonitoringArtConfigCtrl);
 
       _export('QueryOptionsCtrl', MonitoringArtQueryOptionsCtrl);
-
-      _export('AnnotationsQueryCtrl', MonitoringArtAnnotationsQueryCtrl);
     }
   };
 });
