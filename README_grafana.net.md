@@ -1,6 +1,6 @@
 # Grafana Monitoring Art Datasource
 
-Please add your GitHub star ★, it will encourage us to publish more Monitoring
+Please add your [GitHub star ★](https://github.com/monitoringartist/grafana-monitoring-art), it will encourage us to publish more Monitoring
 Art dashboards.
 
 Add some art into your Grafana. Real metrics. No dependency, no waiting for data
@@ -43,7 +43,7 @@ your customized Monitoring Art.
 
 # Contribution
 
-Feel free to create pull request to improve datasource/datasets quality - [source GitHub repo](https://github.com/monitoringartist/grafana-monitoring-art)
+Feel free to create pull request to improve datasource/datasets quality - [source GitHub repo](https://github.com/monitoringartist/grafana-monitoring-art).
 
 ## Author
 
@@ -53,3 +53,4 @@ who loves monitoring systems, which start with letter Z. Those are Zabbix and Ze
 Professional devops / monitoring services:
 
 [![Monitoring Artist](https://monitoringartist.github.io/github-monitoring-artist-logo-white-transparent.png)](http://www.monitoringartist.com 'DevOps / Docker / Kubernetes / AWS ECS / Google GCP / Zabbix / Zenoss / Terraform / Monitoring')
+
