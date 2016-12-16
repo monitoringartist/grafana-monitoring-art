@@ -14,6 +14,7 @@ owner:
 
 # Internal nav
 nav:
+  - MONITORING ART PLAYGROUND: "http://play.monitoringart.com/"
   - INSTALL MONITORING ART: "https://github.com/monitoringartist/grafana-monitoring-art#instalations"
 
 # All translation keys
