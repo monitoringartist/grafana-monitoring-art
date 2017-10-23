@@ -18,7 +18,7 @@ plugin presentation microsite [www.monitoringart.com](http://www.monitoringart.c
 
 [![Monitoring Art - World](https://raw.githubusercontent.com/monitoringartist/grafana-monitoring-art/master/src/img/doc/grafana-monitoring-art-world.png)](https://github.com/monitoringartist/grafana-monitoring-art/tree/master/dashboards)
 
-## Instalation
+## Installation
 
 Use the grafana-cli tool to install Monitoring Art from the commandline:
 
