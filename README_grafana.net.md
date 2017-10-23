@@ -8,7 +8,7 @@ collection. Just install, import dashboard(s) and enjoy it immediately. Visit
 plugin presentation microsite [www.monitoringart.com](http://www.monitoringart.com)
 and [public snapshot of Monitoring Art](https://snapshot.raintank.io/dashboard/snapshot/Taz80xbYsIawWOsYqzOs7IJI24OOruec).
 
-## Instalation
+## Installation
 
 Use the grafana-cli tool to install Monitoring Art from the commandline:
 
